@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for douban_books project
+# Scrapy settings for douban project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'douban_books'
+BOT_NAME = 'douban'
 
-SPIDER_MODULES = ['douban_books.spiders']
-NEWSPIDER_MODULE = 'douban_books.spiders'
+SPIDER_MODULES = ['douban.spiders']
+NEWSPIDER_MODULE = 'douban.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'douban_books (+http://www.yourdomain.com)'
+#USER_AGENT = 'douban (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'douban_books.middlewares.DoubanBooksSpiderMiddleware': 543,
+#    'douban.middlewares.DoubanBooksSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'douban_books.middlewares.DoubanBooksDownloaderMiddleware': 543,
+#    'douban.middlewares.DoubanBooksDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'douban_books.pipelines.DoubanBooksPipeline': 300,
+#    'douban.pipelines.DoubanBooksPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -1,4 +1,4 @@
 # runtime files
-ENV/
+venv/
 # ide files
 .idea/
